@@ -1,6 +1,6 @@
 namespace LinearSearch.Algo;
 
-public static class LinearSearch
+public static class LinearSearchAlgo
 {
     /// <summary>
     /// Performs a linear search on the given list to find the target element.
@@ -13,8 +13,11 @@ public static class LinearSearch
         for (int i = 0; i < list.Count; i++)
         {
             if (list[i] == target)
+            {
                 return i;
+            }
         }
+
         return -1;
     }
 }
