@@ -1,4 +1,5 @@
-﻿// Example usage of the LinearSearch class
+﻿// File: Program.cs
+
 using LinearSearch.Algo;
 
 List<int> numbers = [10, 23, 45, 70, 11, 15];

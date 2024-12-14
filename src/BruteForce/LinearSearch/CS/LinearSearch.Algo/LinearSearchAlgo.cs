@@ -1,3 +1,5 @@
+// File: LinearSearchAlgo.cs
+
 namespace LinearSearch.Algo;
 
 public static class LinearSearchAlgo
