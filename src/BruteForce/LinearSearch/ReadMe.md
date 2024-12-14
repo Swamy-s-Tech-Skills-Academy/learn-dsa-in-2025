@@ -1,5 +1,17 @@
 # How to execute the code
 
+## `C#`
+
+```powershell
+dotnet add package xunit --version 2.5.0
+dotnet add package xunit.runner.visualstudio --version 2.5.0
+dotnet add package Newtonsoft.Json --version 13.0.3
+
+dotnet run
+
+dotnet test
+```
+
 ## Python
 
 ```powershell
