@@ -1,6 +1,5 @@
-namespace LinearSearchAlgo;
+namespace LinearSearch.Algo;
 
-using System;
 using System.Collections.Generic;
 using Xunit;
 

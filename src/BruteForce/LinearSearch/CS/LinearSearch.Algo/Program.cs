@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using LinearSearchAlgo;
-
-// Example usage of the LinearSearch class
+﻿// Example usage of the LinearSearch class
 List<int> numbers = new List<int> { 10, 23, 45, 70, 11, 15 };
 int target = 45;
 

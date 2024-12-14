@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-
-namespace LinearSearchAlgo;
+namespace LinearSearch.Algo;
 
 public static class LinearSearch
 {
