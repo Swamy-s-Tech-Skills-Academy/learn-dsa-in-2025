@@ -16,6 +16,7 @@ dotnet test
 ## Java
 
 ```powershell
+gradle init
 gradle wrapper
 
 gradle tasks

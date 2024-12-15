@@ -23,7 +23,7 @@ dependencies {
 
 // mainClassName = 'com.example.Main'
 application {
-    mainClass.set('LinearSearch.Java.src.main.com.example.Main') // Use this updated method
+    mainClass.set('com.example.Main') // Use this updated method
 }
 
 sourceSets {
