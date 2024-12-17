@@ -13,6 +13,18 @@ dotnet run
 dotnet test
 ```
 
+## Java
+
+```powershell
+gradle init
+gradle wrapper
+
+gradle tasks
+gradle build --warning-mode all
+gradle run --warning-mode all
+gradle test --warning-mode all
+```
+
 ## Python
 
 ```powershell
