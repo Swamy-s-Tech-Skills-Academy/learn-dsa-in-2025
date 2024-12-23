@@ -820,6 +820,7 @@ bin/
 # Java class files
 *.class
 **/*.class
+**/**/*.class
 
 # Gradle
 .gradle
@@ -828,11 +829,10 @@ bin/
 .envrc
 
 # Ignore Gradle build output directory
-build
+build/
 
 # build plugin jar files
 gradle-server/src/main/resources/*.jar
 
 # Ignore user-specified .tool-versions file (asdf-vm configuration)
 .tool-versions
-src/BruteForce/LinearSearch/Java/build/classes/java/main/com/example/Main.class
