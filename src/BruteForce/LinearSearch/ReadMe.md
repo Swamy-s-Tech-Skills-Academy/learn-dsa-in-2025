@@ -13,6 +13,14 @@ dotnet run
 dotnet test
 ```
 
+## Go
+
+```powershell
+go run .
+
+go test
+```
+
 ## Java
 
 ```powershell
