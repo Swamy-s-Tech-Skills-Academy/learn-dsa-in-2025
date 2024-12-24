@@ -60,3 +60,11 @@ py .\main.py
 
 py -m unittest .\test_linear_search.py
 ```
+
+## TypeScript
+
+```powershell
+npm init -y
+npm install --save-dev typescript jest ts-jest @types/jest
+npx tsc --init
+```
