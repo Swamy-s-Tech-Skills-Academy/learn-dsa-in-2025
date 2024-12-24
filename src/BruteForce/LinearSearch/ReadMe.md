@@ -33,10 +33,38 @@ gradle run --warning-mode all
 gradle test --warning-mode all
 ```
 
+## JS
+
+```powershell
+npm init -y
+
+npm install --save-dev jest
+```
+
+```json
+"scripts": {
+    "test": "jest"
+  }
+```
+
+```powershell
+npm test -- --verbose
+
+node main.js
+```
+
 ## Python
 
 ```powershell
 py .\main.py
 
 py -m unittest .\test_linear_search.py
+```
+
+## TypeScript
+
+```powershell
+npm init -y
+npm install --save-dev typescript jest ts-jest @types/jest
+npx tsc --init
 ```
