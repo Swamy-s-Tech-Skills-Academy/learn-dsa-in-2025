@@ -108,3 +108,17 @@ module.exports = {
     "test": "jest --config jest.config.js"
   },
 ```
+
+### Execute
+
+```powershell
+npm install
+
+npm run build
+
+npm run start
+
+npm run build && npm start
+
+npm run test
+```
