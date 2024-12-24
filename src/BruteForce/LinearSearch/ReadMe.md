@@ -41,6 +41,8 @@ npm init -y
 npm install --save-dev jest
 ```
 
+### package.json
+
 ```json
 "scripts": {
     "test": "jest"
@@ -67,4 +69,42 @@ py -m unittest .\test_linear_search.py
 npm init -y
 npm install --save-dev typescript jest ts-jest @types/jest
 npx tsc --init
+```
+
+### jest.config.js
+
+```json
+module.exports = {
+    preset: 'ts-jest',
+    testEnvironment: 'node',
+    testMatch: ['**/?(*.)+(test).[tj]s?(x)']
+};
+```
+
+### tsconfig.json
+
+```json
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+```
+
+### `package.json`
+
+```json
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "jest --config jest.config.js"
+  },
 ```
