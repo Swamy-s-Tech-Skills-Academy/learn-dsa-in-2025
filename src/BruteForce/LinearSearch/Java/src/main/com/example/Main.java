@@ -1,3 +1,5 @@
+// File: Main.java
+
 package com.example;
 
 import java.util.Arrays;
@@ -5,7 +7,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> numbers = Arrays.asList(1, 3, 5, 7, 9);
+        List<Integer> numbers = Arrays.asList(1, 3, 15, 7, 9, 10, 23, 45, 70, 11, 5);
         int target = 5;
 
         int result = LinearSearch.find(numbers, target);
