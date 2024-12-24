@@ -39,7 +39,15 @@ gradle test --warning-mode all
 npm init -y
 
 npm install --save-dev jest
+```
 
+```json
+"scripts": {
+    "test": "jest"
+  }
+```
+
+```powershell
 npm test -- --verbose
 
 node main.js
