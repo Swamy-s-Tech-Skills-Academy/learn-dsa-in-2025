@@ -33,6 +33,18 @@ gradle run --warning-mode all
 gradle test --warning-mode all
 ```
 
+## JS
+
+```powershell
+npm init -y
+
+npm install --save-dev jest
+
+npm test -- --verbose
+
+node main.js
+```
+
 ## Python
 
 ```powershell
